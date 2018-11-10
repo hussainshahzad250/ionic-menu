@@ -1,0 +1,20 @@
+{
+  "name": "component-preview",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --www --watch --serve",
+    "lint": "tslint --project .",
+    "lint.fix": "tslint --project . --fix"
+  },
+  "author": "Ionic Team",
+  "license": "MIT",
+  "dependencies": {
+    "@ionic/core": "^4.0.0-beta.11",
+    "@stencil/core": "^0.12.4"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "tslint-ionic-rules": "0.0.19"
+  }
+}

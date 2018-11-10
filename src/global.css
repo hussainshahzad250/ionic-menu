@@ -1,0 +1,23 @@
+/*
+ * Ionic Global Imports
+ */
+
+/** Basic CSS for Ionic Apps */
+@import "~@ionic/core/css/normalize.css";
+@import "~@ionic/core/css/structure.css";
+@import "~@ionic/core/css/typography.css";
+@import "~@ionic/core/css/core.css";
+
+/** Optional CSS utils that can be commented out */
+@import "~@ionic/core/css/padding.css";
+
+ion-toolbar {
+  --background: white;
+}
+
+:root {
+  --ion-safe-area-top: 22px;
+}
+:root.ios {
+  --ion-safe-area-bottom: 20px;
+}
